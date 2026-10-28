@@ -412,3 +412,12 @@ body {
 .max-w-800 {
     max-width: 800px;
 }
+
+.glow-logo {
+    filter: drop-shadow(0 0 8px rgba(240, 62, 92, 0.8)) drop-shadow(0 0 20px rgba(240, 62, 92, 0.5));
+    transition: filter 0.3s ease;
+}
+
+.glow-logo:hover {
+    filter: drop-shadow(0 0 12px rgba(240, 62, 92, 1.0)) drop-shadow(0 0 30px rgba(240, 62, 92, 0.8));
+}
