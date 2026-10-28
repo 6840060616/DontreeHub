@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Members & About Us - DontriHub</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts & Font Awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="sticky-top bg-dark-nav">
+        <nav class="navbar navbar-expand-lg navbar-dark container py-2">
+            <a class="navbar-brand logo fw-bold" href="index.html">Dontri<span>Hub</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center gap-lg-3">
+                    <li class="nav-item"><a class="nav-link" href="index.html#header">หน้าหลัก</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#features">จุดเด่น</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#catalog">อันดับเครื่องดนตรี</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#contact">ติดต่อเรา</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn-outline-pink px-3 active ms-lg-2 mt-2 mt-lg-0"
+                            href="about.html">ทีมงาน (About Us)</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTAINER FOR ABOUT & TEAM MEMBERS -->
+    <main class="py-5">
+        <div class="container">
+
+            <!-- SECTION: COMPANY ABOUT -->
+            <div class="text-center mb-5">
+                <div class="sub-tag">ABOUT OUR STARTUP</div>
+                <h1 class="display-5 fw-bold text-white mb-3">รู้จัก DontriHub Startup</h1>
+                <p class="lead text-sub col-lg-8 mx-auto">พื้นที่สำหรับคนรักเสียงดนตรี ที่รวบรวมข้อมูล
+                    จัดอันดับเครื่องดนตรี และมอบโซลูชันแก่ผู้ซื้อเพื่อเข้าถึงแหล่งจำหน่ายอย่างมั่นใจ</p>
+            </div>
+
+            <div class="row g-4 mb-5">
+                <div class="col-md-6">
+                    <div class="info-card p-4 h-100 rounded-4">
+                        <h3 class="text-white mb-3"><i
+                                class="fa-solid fa-building-user text-pink me-2"></i>เกี่ยวกับบริษัท</h3>
+                        <p class="text-sub mb-0">DontriHub เป็นแพลตฟอร์ม Startup
+                            ด้านดนตรีที่จัดทำขึ้นเพื่อรวบรวมข้อมูลเครื่องดนตรีประเภทต่างๆ
+                            พร้อมนำเสนอการจัดอันดับในรูปแบบดิจิทัลที่เข้าใจง่าย ครอบคลุมเครื่องดนตรีระดับสากลกว่า 50
+                            ชิ้นพร้อมลิงก์ตรงไปยังแบรนด์ผู้ผลิตจริง</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="info-card p-4 h-100 rounded-4">
+                        <h3 class="text-white mb-3"><i class="fa-solid fa-bullseye text-pink me-2"></i>วัตถุประสงค์</h3>
+                        <p class="text-sub mb-0">มุ่งมั่นพัฒนาเว็บแอปพลิเคชันแบบ Responsive Frontend ด้วยเทคโนโลยี
+                            Bootstrap เพื่อยกระดับประสบการณ์ผู้ใช้งาน ให้ผู้สนใจดนตรีค้นหา เปรียบเทียบสเปก
+                            และตัดสินใจเลือกซื้อเครื่องดนตรีได้อย่างมีประสิทธิภาพสูงสุด</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECTION: TEAM MEMBERS PAGE (3 row Desktop, 2 row Tablet, 1 row Mobile Requirement) -->
+            <div class="text-center mb-4">
+                <div class="sub-tag">MEET OUR TEAM</div>
+                <h2 class="display-6 fw-bold text-white">สมาชิกทีมผู้จัดทำ</h2>
+                <p class="text-sub">คลิกที่การ์ดเพื่อเยี่ยมชม GitHub Resume / Portfolio ของสมาชิกแต่ละคน</p>
+            </div>
+
+            <!-- Responsive Grid: Desktop col-lg-4 (3 per row), Tablet col-md-6 (2 per row), Mobile col-12 (1 per row) -->
+            <div class="row g-4">
+                <!-- Member 1 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="team-card p-4 rounded-4 h-100 text-center">
+                        <div class="member-num mx-auto mb-3">01</div>
+                        <img src="https://6840060624.github.io/resume/profile.png"
+                            alt="ไพโรจน์ แซ่ส่ง" class="member-img rounded-circle mb-3">
+                        <h5 class="text-white mb-1">ไพโรจน์ แซ่ส่ง</h5>
+                        <p class="text-pink fw-medium mb-3">Frontend Developer & Team Leader</p>
+                        <p class="text-sub fs-6 mb-3">รับผิดชอบวางโครงสร้าง Responsive และพัฒนาส่วนติดต่อผู้ใช้ด้วย
+                            Bootstrap</p>
+                        <a href="https://6840060624.github.io/resume/?classId=8edba749-00ff-4419-bfad-eb524bf9bf3a&assignmentId=7cbeefea-71c9-49ce-b00a-52d66245e713&submissionId=04a38ff7-b4b9-1546-bc8c-7e1be728fe62" target="_blank"
+                            class="btn btn-sm btn-outline-pink rounded-pill px-3"><i
+                                class="fa-brands fa-github me-1"></i> GitHub Resume</a>
+                    </div>
+                </div>
+
+                <!-- Member 2 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="team-card p-4 rounded-4 h-100 text-center">
+                        <div class="member-num mx-auto mb-3">02</div>
+                        <img src="https://6840060616.github.io/resume/Peng.jpeg"
+                            alt="พงศกร แซ่โซ่ง" class="member-img rounded-circle mb-3">
+                        <h5 class="text-white mb-1">พงศกร แซ่โซ่ง</h5>
+                        <p class="text-pink fw-medium mb-3">UI/UX Designer & Web Developer</p>
+                        <p class="text-sub fs-6 mb-3">ออกแบบประสบการณ์ผู้ใช้ ตกแต่งธีมสี Dark Crimson
+                            และแอนิเมชันของเว็บ</p>
+                        <a href="https://6840060616.github.io/resume/" target="_blank"
+                            class="btn btn-sm btn-outline-pink rounded-pill px-3"><i
+                                class="fa-brands fa-github me-1"></i> GitHub Resume</a>
+                    </div>
+                </div>
+
+                <!-- Member 3 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="team-card p-4 rounded-4 h-100 text-center">
+                        <div class="member-num mx-auto mb-3">03</div>
+                        <img src="https://6840010635.github.io/resume/tiger.jpeg"
+                            alt="ธนภัทร มัณฑะ" class="member-img rounded-circle mb-3">
+                        <h5 class="text-white mb-1">ธนภัทร มัณฑะ</h5>
+                        <p class="text-pink fw-medium mb-3">Data Specialist & Content Editor</p>
+                        <p class="text-sub fs-6 mb-3">รวบรวมชุดข้อมูลเครื่องดนตรี 50 รายการ ตรวจสอบสเปกและราคาอ้างอิง
+                        </p>
+                        <a href="https://6840010635.github.io/resume/" target="_blank"
+                            class="btn btn-sm btn-outline-pink rounded-pill px-3"><i
+                                class="fa-brands fa-github me-1"></i> GitHub Resume</a>
+                    </div>
+                </div>
+
+                <!-- Member 4 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="team-card p-4 rounded-4 h-100 text-center">
+                        <div class="member-num mx-auto mb-3">04</div>
+                        <img src="https://6840060632.github.io/resume/assets/images/profile.jpg"
+                            alt="อนุตร ลีรัตนะกุลวงศ์" class="member-img rounded-circle mb-3">
+                        <h5 class="text-white mb-1">อนุตร ลีรัตนะกุลวงศ์</h5>
+                        <p class="text-pink fw-medium mb-3">JavaScript Developer</p>
+                        <p class="text-sub fs-6 mb-3">พัฒนาระบบค้นหาและคัดกรองสินค้า Dynamic Search and Filter
+                            แบบเรียลไทม์</p>
+                        <a href="https://6840060632.github.io/resume/" target="_blank"
+                            class="btn btn-sm btn-outline-pink rounded-pill px-3"><i
+                                class="fa-brands fa-github me-1"></i> GitHub Resume</a>
+                    </div>
+                </div>
+
+                <!-- Member 5 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="team-card p-4 rounded-4 h-100 text-center">
+                        <div class="member-num mx-auto mb-3">05</div>
+                        <img src="https://mennoy2002-droid.github.io/RESUME/%E0%B8%A0%E0%B8%B2%E0%B8%9E.png"
+                            alt="สุวัจน์ พิมประวัติ" class="member-img rounded-circle mb-3">
+                        <h5 class="text-white mb-1">สุวัจน์ พิมประวัติ</h5>
+                        <p class="text-pink fw-medium mb-3">Quality Assurance & Tester</p>
+                        <p class="text-sub fs-6 mb-3">ทดสอบความสมบูรณ์แบบ Responsive Web Design บนอุปกรณ์ทุกระดับหน้าจอ
+                        </p>
+                        <a href="https://mennoy2002-droid.github.io/RESUME/index.html?classId=8edba749-00ff-4419-bfad-eb524bf9bf3a&assignmentId=7cbeefea-71c9-49ce-b00a-52d66245e713&submissionId=786909f5-c47a-9a5e-618a-8c4522b36c8c#skills"
+                            class="btn btn-sm btn-outline-pink rounded-pill px-3"><i
+                                class="fa-brands fa-github me-1"></i> GitHub Resume</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5">
+                <a href="index.html" class="btn btn-outline-pink px-4 py-2"><i class="fa-solid fa-arrow-left me-2"></i>
+                    กลับหน้าหลัก</a>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-black border-top border-secondary text-center mt-auto">
+        <div class="container">
+            <div class="f-logo fw-bold fs-4 text-pink mb-2">Dontri<span class="text-white">Hub</span></div>
+            <p class="text-sub mb-1">เว็บไซต์และนำเครื่องดนตรีสำหรับบริษัท Startup</p>
+            <div class="copyright text-muted mt-2">© 2026 DontriHub Startup. All rights reserved.</div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

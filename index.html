@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DontriHub</title>
+    <link rel="icon" type="image/jpeg" href="Logo.png">    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts & Font Awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-main" data-bs-offset="80">
+
+    <!-- Header / Navbar -->
+    <header class="sticky-top bg-dark-nav">
+        <nav id="navbar-main" class="navbar navbar-expand-lg navbar-dark container py-2">
+            <a class="navbar-brand logo fw-bold" href="#header"><span>Dontri</span>Hub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center gap-lg-3">
+                    <li class="nav-item"><a class="nav-link active" href="#header">หน้าหลัก</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">จุดเด่น</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#catalog">เครื่องดนตรี</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">รีวิว</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#cta">ดาวน์โหลดแอป</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">ติดต่อเรา</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn-outline-pink px-3 ms-lg-2 mt-2 mt-lg-0"
+                            href="about.html">ทีมงาน (About Us)</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- SECTION 1: HEADER (TITLE & HERO) -->
+    <section id="header" class="hero-section py-5">
+        <div class="container">
+            <div class="row align-items-center gy-4 hero-banner p-4 p-lg-5 rounded-4">
+                <!-- Column 1: Text Content -->
+                <div class="col-lg-7 col-12 text-center text-lg-start hero-text">
+                    <div class="sub-tag mb-2"><i class="fa-solid fa-fire me-1"></i> FIND YOUR SOUND</div>
+                    <h1 class="display-4 fw-bold text-white mb-3">เลือกเครื่องดนตรีที่ใช่ ในแบบของคุณ</h1>
+                    <p class="lead text-sub mb-4">
+                        DontriHub แอปพลิเคชันรวบรวมและแนะนำเครื่องดนตรีชั้นนำระดับโลกกว่า 50 รายการ
+                        พร้อมรายละเอียด สเปก ราคา และลิงก์ตรงจากแบรนด์ ช่วยให้คุณตัดสินใจได้ง่ายและแม่นยำที่สุด
+                    </p>
+                    <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start">
+                        <a href="#catalog" class="btn btn-primary-custom px-4 py-2">ดูอันดับแนะนำ</a>
+                        <a href="#cta" class="btn btn-outline-pink px-4 py-2"><i class="fa-brands fa-apple me-1"></i>
+                            ดาวน์โหลด แอปพลิเคชัน</a>
+                    </div>
+                </div>
+                <!-- Column 2: Interactive Vinyl / App Preview -->
+                <div class="col-lg-5 col-12 d-flex justify-content-center">
+                    <div class="vinyl-wrapper">
+                        <div class="vinyl-disc">
+                            <div class="vinyl-center">
+                                <i class="fa-solid fa-music"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 2: FEATURES (3 Column Responsive Requirement) -->
+    <section id="features" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <div class="sub-tag">FEATURES & SERVICES</div>
+                <h2 class="display-6 fw-bold text-white">จุดเด่นของ DontriHub</h2>
+                <p class="text-sub">ฟีเจอร์หลักที่จะทำให้การเลือกซื้อเครื่องดนตรีของคุณเป็นเรื่องง่าย</p>
+            </div>
+
+            <!-- Desktop: 3 Columns, Mobile/Tablet: 1 Column -->
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-12">
+                    <div class="card feature-card h-100 p-4 text-center">
+                        <div class="feature-icon mb-3">
+                           <i class="fa-solid fa-award"></i>
+                        </div>
+                        <h4 class="text-white mb-3">Trust & Social Proof</h4>
+                        <p class="text-sub mb-0">อันดับเครื่องดนตรีสุดฮิตที่ได้รับการยอมรับจากนักดนตรีและผู้ใช้จริง อัปเดตข้อมูล สเปก และราคาตลาดแบบเรียลไทม์</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="card feature-card h-100 p-4 text-center">
+                        <div class="feature-icon mb-3">
+                            <i class="fa-solid fa-sliders"></i>
+                        </div>
+                        <h4 class="text-white mb-3">Smart Search & Filter</h4>
+                        <p class="text-sub mb-0">ค้นหาเครื่องดนตรีแยกตามหมวดหมู่ กีตาร์ เปียโน กลอง เครื่องเป่า
+                            และสตูดิโอ หรือพิมพ์ค้นหาตามแบรนด์ได้ทันที</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="card feature-card h-100 p-4 text-center">
+                        <div class="feature-icon mb-3">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                        <h4 class="text-white mb-3">Direct Store Link</h4>
+                        <p class="text-sub mb-0">เชื่อมต่อไปยังร้านค้าและแบรนด์ผู้ผลิตโดยตรง
+                            ช่วยให้คุณเปรียบเทียบราคาและกดสั่งซื้อได้ปลอดภัยสะดวกรวดเร็ว</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CATALOG SECTION (INSTRUMENT RANKING) -->
+    <section id="catalog" class="py-5">
+        <div class="container">
+            <!-- Controls Bar (Category Tabs & Search Input) -->
+            <div
+                class="controls-bar p-3 mb-4 rounded-4 d-flex flex-wrap align-items-center justify-content-between gap-3">
+                <div class="category-tabs d-flex flex-wrap gap-2">
+                    <button class="tab-btn active" onclick="scrollToCategory('catalog-start', this)">ทั้งหมด
+                        (50)</button>
+                    <button class="tab-btn" onclick="scrollToCategory('cat-guitar', this)"><i
+                            class="fa-solid fa-guitar"></i> กีตาร์ (10)</button>
+                    <button class="tab-btn" onclick="scrollToCategory('cat-piano', this)"><i
+                            class="fa-solid fa-keyboard"></i> เปียโน (10)</button>
+                    <button class="tab-btn" onclick="scrollToCategory('cat-drums', this)"><i
+                            class="fa-solid fa-drum"></i> กลอง (10)</button>
+                    <button class="tab-btn" onclick="scrollToCategory('cat-wind', this)"><i
+                            class="fa-solid fa-wind"></i> เครื่องเป่า (10)</button>
+                    <button class="tab-btn" onclick="scrollToCategory('cat-studio', this)"><i
+                            class="fa-solid fa-sliders"></i> สตูดิโอ (10)</button>
+                </div>
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" id="searchInput" onkeyup="searchProducts()"
+                        placeholder="ค้นหาชื่อรุ่น หรือแบรนด์...">
+                </div>
+            </div>
+
+            <!-- Search Results Container -->
+            <div id="searchResultContainer" style="display: none;" class="mb-5">
+                <div class="category-title mb-3">
+                    <h3 class="text-white"><i class="fa-solid fa-magnifying-glass text-pink"></i> ผลการค้นหา</h3>
+                </div>
+                <div class="products-grid" id="searchGrid"></div>
+            </div>
+
+            <!-- All Categories Container -->
+            <div id="allCategoriesContainer">
+                <!-- 1. กีตาร์ -->
+                <div id="cat-guitar" class="category-block mb-5">
+                    <div class="category-title mb-3">
+                        <h3 class="text-white"><i class="fa-solid fa-guitar text-pink"></i> กีตาร์ (10)</h3>
+                    </div>
+                    <div class="products-grid" id="grid-guitar"></div>
+                </div>
+
+                <!-- 2. เปียโนและคีย์บอร์ด -->
+                <div id="cat-piano" class="category-block mb-5">
+                    <div class="category-title mb-3">
+                        <h3 class="text-white"><i class="fa-solid fa-keyboard text-pink"></i> เปียโนและคีย์บอร์ด (10)
+                        </h3>
+                    </div>
+                    <div class="products-grid" id="grid-piano"></div>
+                </div>
+
+                <!-- 3. กลอง -->
+                <div id="cat-drums" class="category-block mb-5">
+                    <div class="category-title mb-3">
+                        <h3 class="text-white"><i class="fa-solid fa-drum text-pink"></i> กลอง (10)</h3>
+                    </div>
+                    <div class="products-grid" id="grid-drums"></div>
+                </div>
+
+                <!-- 4. เครื่องเป่า -->
+                <div id="cat-wind" class="category-block mb-5">
+                    <div class="category-title mb-3">
+                        <h3 class="text-white"><i class="fa-solid fa-wind text-pink"></i> เครื่องเป่า (10)</h3>
+                    </div>
+                    <div class="products-grid" id="grid-wind"></div>
+                </div>
+
+                <!-- 5. สตูดิโอ & แอมป์ -->
+                <div id="cat-studio" class="category-block mb-5">
+                    <div class="category-title mb-3">
+                        <h3 class="text-white"><i class="fa-solid fa-sliders text-pink"></i> สตูดิโอ & แอมป์ (10)</h3>
+                    </div>
+                    <div class="products-grid" id="grid-studio"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3: ADDITIONAL SECTION - TESTIMONIALS (Required Optional Choice) -->
+    <section id="testimonials" class="py-5 bg-card-dark">
+        <div class="container">
+            <div class="text-center mb-5">
+                <div class="sub-tag">TESTIMONIALS</div>
+                <h2 class="display-6 fw-bold text-white">รีวิวจากลูกค้า</h2>
+                <p class="text-sub">ความคิดเห็นจากผู้ใช้งานจริงที่เลือกใช้แอป DontriHub ในการค้นหาอุปกรณ์ดนตรี</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonial-card p-4 h-100 rounded-4">
+                        <div class="stars mb-3 text-warning">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-sub fst-italic mb-4">"ช่วยให้ค้นหากีตาร์ไฟฟ้าโปรดได้รวดเร็วมาก
+                            มีลิงก์เปรียบเทียบสเปกและราคาชัดเจน ไม่ต้องเสียเวลาเปิดหลายเว็บ!"</p>
+                        <div class="d-flex align-items-center gap-3">
+                            <div
+                                class="user-avatar rounded-circle bg-pink text-white d-flex align-items-center justify-content-center fw-bold">
+                                AJ</div>
+                            <div>
+                                <h6 class="text-white mb-0">AJung</h6>
+                                <small class="text-sub">Mugician / Guitarist</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonial-card p-4 h-100 rounded-4">
+                        <div class="stars mb-3 text-warning">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-sub fst-italic mb-4">"ประทับใจมากครับ ได้เปียโนไฟฟ้าคุณภาพดีเยี่ยม ตรงงบที่วางไว้พอดี ทัชชิ่งสมจริง เสียงใส แนะนำสำหรับทุกคนโดยเฉพาะคนทำเพลง"</p>
+                        <div class="d-flex align-items-center gap-3">
+                            <div
+                                class="user-avatar rounded-circle bg-pink text-white d-flex align-items-center justify-content-center fw-bold">
+                                CB</div>
+                            <div>
+                                <h6 class="text-white mb-0">CBass</h6>
+                                <small class="text-sub">Music Producer</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="testimonial-card p-4 h-100 rounded-4">
+                        <div class="stars mb-3 text-warning">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-sub fst-italic mb-4">"ชอบดีไซน์แอปพลิเคชันใช้งานง่าย สีสวย
+                            และมีหมวดหมู่อุปกรณ์สตูดิโอให้เลือกลองฟังเทียบเสียง ดีงามสุดๆ"</p>
+                        <div class="d-flex align-items-center gap-3">
+                            <div
+                                class="user-avatar rounded-circle bg-pink text-white d-flex align-items-center justify-content-center fw-bold">
+                                KT</div>
+                            <div>
+                                <h6 class="text-white mb-0">Keyta</h6>
+                                <small class="text-sub">Sound Engineer</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 4: CALL FOR ACTION (CTA) -->
+    <section id="cta" class="py-5">
+        <div class="container">
+            <div class="cta-card p-5 text-center rounded-4 position-relative overflow-hidden">
+                <div class="sub-tag mb-2">DOWNLOAD NOW</div>
+                <h2 class="display-5 fw-bold text-white mb-3">ยกระดับประสบการณ์ดนตรีของคุณวันนี้</h2>
+                <p class="lead text-sub mb-4 col-lg-8 mx-auto">ดาวน์โหลดแอป DontriHub ได้แล้ววันนี้บน iOS และ
+                    Android เพื่อเลือกสรรเครื่องดนตรีระดับโลกได้ทุกที่ทุกเวลา</p>
+                <div class="d-flex flex-wrap gap-3 justify-content-center">
+                    <a href="https://www.apple.com/app-store/" target="_blank"
+                        class="btn btn-primary-custom px-4 py-2 fs-6"><i class="fa-brands fa-apple me-2"></i> App
+                        Store</a>
+                    <a href="https://play.google.com/store" target="_blank"
+                        class="btn btn-outline-pink px-4 py-2 fs-6"><i class="fa-brands fa-google-play me-2"></i> Google
+                        Play</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 5: SOCIAL LINK & CONTACT -->
+    <section id="contact" class="py-5 bg-card-dark">
+        <div class="container">
+            <div class="text-center mb-4">
+                <div class="sub-tag">CONTACT & SOCIALS</div>
+                <h2 class="display-6 fw-bold text-white">ช่องทางการติดต่อและติดตาม</h2>
+                <p class="text-sub">ติดตามข่าวสารกิจกรรมและข้อมูลจากสถาบันการจัดการปัญญาภิวัฒน์ (PIM)</p>
+            </div>
+
+            <div class="contact-box p-4 p-md-5 rounded-4 text-center max-w-800 mx-auto">
+                <div class="social-links d-flex flex-wrap justify-content-center gap-3 mb-4">
+                    <a href="https://www.pim.ac.th/" target="_blank" class="social-btn">
+                        <i class="fa-solid fa-globe"></i> เว็บไซต์ PIM
+                    </a>
+                    <a href="https://www.facebook.com/pimfanpage" target="_blank" class="social-btn">
+                        <i class="fa-brands fa-facebook-f"></i> Facebook PIM
+                    </a>
+                    <a href="https://www.instagram.com/piminstitute" target="_blank" class="social-btn">
+                        <i class="fa-brands fa-instagram"></i> Instagram PIM
+                    </a>
+                </div>
+                <div class="text-sub border-top border-secondary pt-3 mt-3 fs-6">
+                    <p class="mb-0">สถาบันการจัดการปัญญาภิวัฒน์ (PIM) - ถนนแจ้งวัฒนะ ปากเกร็ด นนทบุรี</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-black border-top border-secondary text-center">
+        <div class="container">
+            <div class="f-logo fw-bold fs-4 text-pink mb-2">Dontri<span class="text-white">Hub</span></div>
+            <p class="text-sub mb-1">เว็บไซต์แนะนำเครื่องดนตรีสำหรับบริษัท Startup</p>
+            <p><a href="about.html" class="text-pink text-decoration-none fw-medium">รู้จักทีมผู้จัดทำ (Team
+                    Members)</a></p>
+            <div class="copyright text-muted mt-3">© 2026 DontriHub Startup. All rights reserved.</div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+    <!-- วางแท็ก audio ไว้ใน body (เปลี่ยน music.mp3 เป็นชื่อไฟล์เสียงของคุณ) -->
+<audio id="myMusic" src="music.mp3"></audio>
+
+<!-- เพิ่ม onclick="toggleMusic()" และ cursor: pointer ที่ vinyl-wrapper -->
+<div class="vinyl-wrapper" onclick="toggleMusic()" style="cursor: pointer;">
+    <div class="vinyl-disc">
+        <div class="vinyl-center">
+            <i class="fa-solid fa-music"></i>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
