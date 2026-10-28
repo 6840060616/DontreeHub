@@ -20,7 +20,7 @@ body {
     background-color: var(--bg-dark);
     color: var(--text-main);
     min-height: 100vh;
-    background-image: 
+    background-image:
         radial-gradient(circle at 15% 20%, rgba(153, 0, 51, 0.15) 0%, transparent 40%),
         radial-gradient(circle at 85% 70%, rgba(255, 51, 102, 0.1) 0%, transparent 40%);
     background-attachment: fixed;
@@ -150,8 +150,13 @@ body {
 }
 
 @keyframes rotateVinyl {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 /* Feature Cards */
@@ -191,7 +196,8 @@ body {
     transition: all 0.3s;
 }
 
-.tab-btn.active, .tab-btn:hover {
+.tab-btn.active,
+.tab-btn:hover {
     background: linear-gradient(45deg, var(--accent-crimson), var(--accent-red));
     color: #fff;
     border-color: transparent;
@@ -328,7 +334,9 @@ body {
 }
 
 /* Testimonials & Info Cards */
-.testimonial-card, .info-card, .contact-box {
+.testimonial-card,
+.info-card,
+.contact-box {
     background: var(--bg-card);
     border: 1px solid rgba(255, 51, 102, 0.15);
 }
